@@ -6,7 +6,7 @@ import psycopg2
 def register(username, password):
     try:
         conn = psycopg2.connect(
-            dbname="expense_tracker",
+            dbname="lms",
             user="postgres",
             password="dheerajpostgres",
             host="localhost"
